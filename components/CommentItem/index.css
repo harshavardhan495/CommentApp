@@ -1,0 +1,114 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  height: 45px;
+  width: 400px;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+}
+
+/* Write your CSS here */
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profile-pic {
+  border-radius: 45px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 8px;
+  color: white;
+}
+.display-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 12px;
+}
+.detailed-comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.time-updated {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.name-box {
+  display: flex;
+  flex-direction: rows;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-name-styling {
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.comment-styling {
+  font-size: 14px;
+  color: #475569;
+}
+
+.card-main-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15px 5px -15px #111;
+  padding: 20px;
+  width: 65%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.action-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media all and (max-width: 567px) {
+  .card-main-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 15px 5px -15px #111;
+    padding: 20px;
+    width: 90%;
+  }
+}

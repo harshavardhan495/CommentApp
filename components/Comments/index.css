@@ -1,0 +1,144 @@
+/* Write your CSS here */
+.html {
+  scroll-behavior: smooth;
+}
+.main-bg-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  padding-left: 30px;
+  overflow-y: auto;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 5px;
+  width: 90%;
+}
+.input-area-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  height: 400px;
+}
+.comment-image-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  padding: 20px;
+}
+.comment-image {
+  width: 60%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.input-area {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border-width: 1px;
+  color: black;
+  outline: none;
+  padding: 5px;
+}
+
+.text-area {
+  height: 150px;
+  width: 270px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  outline: none;
+  padding: 10px;
+}
+
+.submit-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border-width: 0px;
+  outline: none;
+  color: white;
+  background-color: #0284c7;
+  margin-top: 15px;
+}
+
+.main-heading {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+
+.main-desc {
+  font-size: 15px;
+}
+
+.comments-card-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+@media all and (max-width: 567px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    width: 100%;
+  }
+  .comment-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    order: 0;
+  }
+  .input-area-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 400px;
+    order: 2;
+  }
+
+  .comment-image {
+    width: 40%;
+  }
+  .main-bg-container {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    padding-left: 30px;
+    overflow-y: auto;
+  }
+  .comments-card-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    overflow: auto;
+  }
+}
+
+.comments-count {
+  padding: 5px;
+  color: #0284c7;
+  font-size: 15px;
+  font-weight: bold;
+}
